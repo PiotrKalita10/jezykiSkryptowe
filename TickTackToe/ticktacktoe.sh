@@ -2,6 +2,7 @@
 
 PLAYER1=x
 PLAYER2=o
+COMPUTER=o
 PLAYERSYMBOL=$PLAYER1
 PLAYERNAME=PLAYER1
 STOPGAME=false
@@ -19,6 +20,40 @@ printBoard() {
   echo " ${table[6]} | ${table[7]} | ${table[8]} "
   echo "============="
 
+}
+saveGame() {
+  str=""
+  for ((x = 0; x < 9; x++)); do
+    str=$str"${table[$x]} "
+  done
+  str=$str"$PLAYERSYMBOL"
+  echo "$str" >save.txt
+
+}
+
+loadGame() {
+  exec 3<>./save.txt
+  read -u 3 -a tab
+
+  for ((x = 0; x < 9; x++)); do
+    table[$x]=${tab[$x]}
+  done
+
+  exec 3>&-
+  printBoard
+}
+
+saveSetup() {
+  if [[ $OPTION == 1 ]]; then
+    PLAYERSYMBOL=${tab[9]}
+  elif [[ $OPTION == 2 ]]; then
+    if [[ ${tab[9]} == "x" ]]; then
+      PLAYERNAME=PLAYER1
+      PLAYERSYMBOL=${tab[9]}
+    elif [[ ${tab[9]} == "o" ]]; then
+      computerMove
+    fi
+  fi
 }
 
 playerMove() {
@@ -61,8 +96,8 @@ changePlayer() {
     PLAYERSYMBOL=$PLAYER1
     PLAYERNAME=PLAYER1
   fi
-}
 
+}
 
 checkWin() {
   if [[ ${table[0]} == ${table[1]} ]] && [[ ${table[1]} == ${table[2]} ]]; then
@@ -109,9 +144,17 @@ gameType() {
 
 clear
 echo "PLAYER VS PLAYER - 1"
+echo "LOAD GAME - L"
 read OPTION
 gameType
-
+if [[ $OPTION == L ]] || [[ $OPTION == l ]]; then
+  loadGame
+  printBoard
+  echo "PLAYER VS PLAYER - 1"
+  read OPTION
+  saveSetup
+  gameType
+fi
 
 if [[ $STOPGAME == true ]]; then
   printBoard
