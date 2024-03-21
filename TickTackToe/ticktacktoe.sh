@@ -99,6 +99,18 @@ changePlayer() {
 
 }
 
+computerMove() {
+  if [[ $STOPGAME == false ]]; then
+    position=$(($RANDOM % (9)))
+    while [[ ${table[$position]} == "x" ]] || [[ ${table[$position]} == "o" ]]; do
+      position=$(($RANDOM % (9)))
+    done
+    PLAYERNAME=COMPUTER
+    table[$position]=$COMPUTER
+    COUNTER=$((COUNTER + 1))
+  fi
+}
+
 checkWin() {
   if [[ ${table[0]} == ${table[1]} ]] && [[ ${table[1]} == ${table[2]} ]]; then
     STOPGAME=true
@@ -139,11 +151,21 @@ gameType() {
       playerMove
       checkWin
     done
+
+  elif [[ $OPTION == 2 ]]; then
+    while [[ $STOPGAME == false ]]; do
+      printBoard
+      playerMove
+      checkWin
+      computerMove
+      checkWin
+    done
   fi
 }
 
 clear
 echo "PLAYER VS PLAYER - 1"
+echo "PLAYER VS COMPUTER - 2"
 echo "LOAD GAME - L"
 read OPTION
 gameType
@@ -151,6 +173,7 @@ if [[ $OPTION == L ]] || [[ $OPTION == l ]]; then
   loadGame
   printBoard
   echo "PLAYER VS PLAYER - 1"
+  echo "PLAYER VS COMPUTER - 2"
   read OPTION
   saveSetup
   gameType
