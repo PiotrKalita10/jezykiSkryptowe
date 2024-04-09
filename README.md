@@ -9,3 +9,10 @@ Zadanie 1 TickTack
 
 
 Kod: https://github.com/PiotrKalita10/jezykiSkryptowe/tree/main/TickTackToe
+
+
+Zadanie 2 ChatBot
+
+✅ 3.0 wymaganie 1 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/c9f5c3e3b0eac95d471d81ef6eeeb77998d0dd09
+
+✅ 3.5  wymaganie 2 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/35f2cfbf1b362fddd80632f82486c3f155de3dd2
