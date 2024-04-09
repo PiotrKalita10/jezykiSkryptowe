@@ -16,3 +16,5 @@ Zadanie 2 ChatBot
 ✅ 3.0 wymaganie 1 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/35107d9a380af4d2cc53aafa006b4b76fbe632d6
 
 ✅ 3.5  wymaganie 2 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/35107d9a380af4d2cc53aafa006b4b76fbe632d6
+
+Kod: https://github.com/PiotrKalita10/jezykiSkryptowe/tree/main/ChatBot
