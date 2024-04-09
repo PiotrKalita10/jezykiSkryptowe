@@ -1,0 +1,151 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: request_opening_hours
+  examples: |
+    - Are you open on [Monday](day)?
+    - Could you confirm if the restaurant operates on [Monday](day)?
+    - Are you serving customers on [Friday](day)?
+    - Is [Saturday](day) a regular operating day for the restaurant?
+    - Can you tell me if the restaurant is available for dining on [Saturday](day)?
+    - Does the restaurant open its doors on [Friday](day)?
+    - Are you open for business on [Sunday](day)?
+    - Is the restaurant accepting guests on [Thursday](day)?
+    - Could you please inform me if the restaurant is operational on [Thursday](day)?
+    - Can I expect the restaurant to be open on [Sunday](day)?
+    - Could you confirm if the restaurant operates on [Monday](day)?
+    - Are you serving customers on [Friday](day)?
+    - What hours you are working on [Monday](day)?
+    - Is [Saturday](day) a regular operating day for the restaurant?
+    - Can you tell me if the restaurant is available for dining on [Saturday](day)?
+    - Does the restaurant open its doors on [Friday](day)?
+    - Are you open for business on [Sunday](day)?
+    - Is the restaurant accepting guests on [Thursday](day)?
+    - Could you please inform me if the restaurant is operational on [Thursday](day)?
+    - Can I expect the restaurant to be open on [Sunday](day)?
+
+- intent: request_menu
+  examples: |
+    - Could you please tell me what dishes are on the menu?
+    - What options do you have available on the menu?
+    - Can you provide me with a list of the menu items?
+    - What kind of food does the menu offer?
+    - Could you describe what's available on the menu?
+    - What are the featured items on the menu?
+    - Can you give me an overview of the menu selections?
+    - What types of cuisine are included on the menu?
+    - Could you let me know what I can order from the menu?
+    - What dishes do you recommend from the menu?
+    - May I inquire about the dishes offered on your menu?
+    - What culinary options are currently presented on your menu?
+    - Would you kindly share a rundown of the menu items?
+    - What varieties of cuisine can I expect to find on the menu?
+    - Could you provide details about the menu offerings?
+    - Are there any standout items showcased on the menu?
+    - Can you offer a summary of the menu selections available?
+    - What sorts of cuisine are featured on the menu?
+    - Could you inform me about the available menu choices?
+    - Which menu items would you suggest trying out?
+    - What can I eat in your restaurant?
+    - What could I get from your restaurant?
+    - What is on the menu?
+    - Can you list the meals?
+    - What dishes are available on the menu?
+    - Can you tell me what's on the menu?
+    - What food options do you offer?
+    - What items are listed on your menu?
+    - Could you provide details about the menu offerings?
+    - What types of cuisine can I find on the menu?
+    - Can you describe what's available for order?
+    - What are the featured items on your menu?
+    - Are there any specials listed on the menu?
+    - Could you give me an overview of the menu selections?
