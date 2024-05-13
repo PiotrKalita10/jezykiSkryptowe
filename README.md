@@ -18,3 +18,16 @@ Zadanie 2 ChatBot
 ✅ 3.5  wymaganie 2 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/35107d9a380af4d2cc53aafa006b4b76fbe632d6
 
 Kod: https://github.com/PiotrKalita10/jezykiSkryptowe/tree/main/ChatBot
+
+
+Zadanie 3 Castle
+
+✅ 3.0 wymaganie 1 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/0d1cc29cb51a8298695fb07c16c315695db0ee6d
+
+✅ 3.5  wymaganie 2 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/0d1cc29cb51a8298695fb07c16c315695db0ee6d
+
+✅ 4.0 wymaganie 3 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/0d1cc29cb51a8298695fb07c16c315695db0ee6d
+
+✅ 4.5  wymaganie 4 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/0d1cc29cb51a8298695fb07c16c315695db0ee6d
+
+Kod: https://github.com/PiotrKalita10/jezykiSkryptowe/tree/main/Castle
