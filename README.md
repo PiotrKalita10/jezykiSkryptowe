@@ -31,3 +31,14 @@ Zadanie 3 Castle
 ✅ 4.5  wymaganie 4 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/0d1cc29cb51a8298695fb07c16c315695db0ee6d
 
 Kod: https://github.com/PiotrKalita10/jezykiSkryptowe/tree/main/Castle
+
+Zadanie 4 Tetris
+
+✅ 3.0 wymaganie 1 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/b356741df9de0c68723fb0215b4ec6914d4f655f
+
+✅ 3.5  wymaganie 2 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/b356741df9de0c68723fb0215b4ec6914d4f655f
+
+✅ 4.0 wymaganie 3 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/b356741df9de0c68723fb0215b4ec6914d4f655f
+
+
+Kod: https://github.com/PiotrKalita10/jezykiSkryptowe/tree/main/Tetris
