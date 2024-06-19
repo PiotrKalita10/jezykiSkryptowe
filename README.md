@@ -42,3 +42,12 @@ Zadanie 4 Tetris
 
 
 Kod: https://github.com/PiotrKalita10/jezykiSkryptowe/tree/main/Tetris
+
+Zadanie 5 Mario
+
+✅ 3.0 wymaganie 1 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/b356741df9de0c68723fb0215b4ec6914d4f655f
+✅ 3.5  wymaganie 2 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/b356741df9de0c68723fb0215b4ec6914d4f655f
+✅ 4.0 wymaganie 3 https://github.com/PiotrKalita10/jezykiSkryptowe/commit/b356741df9de0c68723fb0215b4ec6914d4f655f
+
+
+Kod: https://github.com/PiotrKalita10/jezykiSkryptowe/tree/main/Tetris
